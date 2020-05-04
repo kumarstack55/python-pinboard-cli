@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-pinboard-cli"
+version = "0.1.0"
+description = ""
+authors = ["kumarstack55 <kumarstack55@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pinboard = ">=2.0"
+tqdm = "^4.46.0"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.7.9"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
